@@ -18,8 +18,8 @@ function Sidebar() {
           <div className="sidebar-header">
             <div className="side-header-icon"><Building size={20} color="black" /></div>
             <div className="side-header-content">
-              <span className="side-header-title">Collect Pro</span>
-              <span className="side-header-desc">Collection Platform</span>
+              <span className="side-header-title">CollectPro</span>
+              <span className="side-header-desc">Collections Platform</span>
             </div>
           </div>
           <div className="sidebar-content">

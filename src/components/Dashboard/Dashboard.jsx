@@ -10,7 +10,8 @@ import {
   Phone,
   Upload,
   FileText,
-  BarChart2
+  BarChart2,
+  ArrowRight
 } from "lucide-react";
 
 function Dashboard() {
@@ -87,7 +88,7 @@ function Dashboard() {
             <div className="main-dash-content-summary-item-content">
               <span className="summary-item-number">12.3</span>
               <span className="summary-item-desc-down ">
-                <TrendingDown size={12} /> +12.5% from last month
+                <TrendingDown size={12} /> -2.5% from last month
               </span>
             </div>
           </div>
@@ -166,7 +167,7 @@ function Dashboard() {
           <div className="main-dash-content-recent-activity">
             <div className="recent-activity-header">
               <span>Recent Activity</span>
-              <span className="rc-act-view-all-btn">View All -</span>
+              <span className="rc-act-view-all-btn"><span>View All</span> <ArrowRight size={15}  /></span>
             </div>
             <div className="recent-activity-content">
               <div className="recent-activity-content-item">
