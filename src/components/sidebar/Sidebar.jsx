@@ -16,7 +16,7 @@ function Sidebar() {
   return (
     <aside className="sidebar">
           <div className="sidebar-header">
-            <div className="side-header-icon"><Building size={20} color="black" /></div>
+            <div className="side-header-icon"><Building size={20} color="#fff" /></div>
             <div className="side-header-content">
               <span className="side-header-title">CollectPro</span>
               <span className="side-header-desc">Collections Platform</span>

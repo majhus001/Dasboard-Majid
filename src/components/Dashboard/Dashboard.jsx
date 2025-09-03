@@ -18,6 +18,7 @@ function Dashboard() {
   return (
     <div>
       <div className="main-dash">
+
         <div className="main-dash-header">
           <div className="main-dash-header-content">
             <span className="main-dash-header-title">Dashboard</span>
@@ -93,6 +94,7 @@ function Dashboard() {
             </div>
           </div>
         </div>
+
         <div className="main-dash-content-perf-reca">
           <div className="main-dash-content-performance">
             <span className="main-dash-performance-title">
@@ -164,6 +166,7 @@ function Dashboard() {
               </div>
             </div>
           </div>
+          
           <div className="main-dash-content-recent-activity">
             <div className="recent-activity-header">
               <span>Recent Activity</span>
